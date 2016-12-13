@@ -4,6 +4,40 @@
 <head>
 <title>InfiniteGamez!</title>
 </head>
+
+<script src=uilang.js></script>
+
+<style>
+  h1 {
+    background: #FAFAFB
+  }
+  h1.active {
+    background: white
+  }
+  p {
+    display: none
+  }
+  h1.active + p {
+    display: block
+  }
+</style>
+
+<h1 class=active>About me</h1>
+<p>Hi! My name’s Ben, I’m a 30-year old interface designer.
+
+<h1>Work</h1>
+<p>You can see some of my recent work on Dribbble.
+
+<h1>Contact</h1>
+<p>Feel free to send me an email or ping me on Twitter!
+
+<code>
+  <!-- start by removing the previous "open" class -->
+  clicking on "h1" removes class "active" on "h1.active"
+
+  <!-- then add it to the clicked title -->
+  clicking on "h1" adds class "active" on "target"
+</code>
  
 <body>
 Tonto el que me lea
