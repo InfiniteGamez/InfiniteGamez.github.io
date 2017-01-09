@@ -6,11 +6,24 @@
 </head>
 <body>
 
-<h1>You are infected</h1>
-<p>meh.</p>
+<h1>Error 404</h1>
+<a href="#" onmouseover="myFunction()">Report</a>
+
+<p id="demo"></p>
 
 <script>
-window.alert(5+6);
+function myFunction()
+{
+var x;
+
+var name=prompt("Put your username","USERNAME HERE");
+
+if (name!=null)
+  {
+  x="Hello " + name + ", what´s up! <br> You are infected! YAY!";
+  document.getElementById("demo").innerHTML=x;
+  }
+}
 </script>
 
 </body>
